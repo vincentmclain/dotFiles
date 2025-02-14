@@ -1,0 +1,14 @@
+configuration{
+	display-drun: "Applications:";
+	display-window: "Windows:";
+    modi: "drun,window";
+    icon-theme: "Oranchelo";
+    show-icons: true;
+    terminal: "kitty";
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+}
+
+@theme "catppuccin-mocha"

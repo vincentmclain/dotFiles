@@ -1,0 +1,20 @@
+[credential]
+	helper = 
+	helper = /usr/local/bin/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[user]
+	email = vincent.mclain@gmail.com
+	name = Vincent McLain
+[core]
+	editor = code --new-window --wait
+[commit]
+	template = /home/vince/.gitmessage.txt
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff  
+[merge]
+    tool = default-mergetool
+[mergetool "default-mergetool"]
+    cmd = code --wait $MERGED
