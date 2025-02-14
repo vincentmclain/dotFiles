@@ -5,7 +5,7 @@
 	useHttpPath = true
 [user]
 	email = vincent.mclain@gmail.com
-	name = Vincent McLain
+	name = vincentmclain
 [core]
 	editor = code --new-window --wait
 [commit]
