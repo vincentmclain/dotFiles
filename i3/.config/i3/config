@@ -213,3 +213,4 @@ client.focused          #d20f39 #285577 #ffffff #2e9ef4   #e64553
 
 # client.background       #ffffff
 default_border pixel 5
+for_window [all] border normal 5
